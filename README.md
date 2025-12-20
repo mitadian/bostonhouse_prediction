@@ -39,7 +39,7 @@ MEDV is the median value of owner-occupied homes in $1,000s. It represents the t
 - **Neighborhood Socioeconomic Status (LSTAT):** Higher percentages of lower-status populations correlate with lower house prices. Most neighborhoods range 5–15%, indicating many areas have a strong socioeconomic profile.  
 - **Education Quality (PTRATIO):** Higher student-to-teacher ratios slightly reduce house prices. Most areas have a ratio around 20, suggesting moderate influence on pricing.  
 
-<img width="1580" height="380" alt="MEDV Boxplot CHAS" src="https://github.com/user-attachments/assets/98073fd2-59f8-475d-b65a-1e06ccb003be" />
+<img width="543" height="482" alt="Image" src="https://github.com/user-attachments/assets/74c5fece-c8e8-4957-8d58-f51741f1551f" />
 
 - **River Proximity (CHAS):** Houses near the river (CHAS=1) have higher prices than those farther away, indicating strong location-based premiums.
 
