@@ -29,6 +29,7 @@ This dataset provides a historical snapshot of the Boston housing market from th
 | black    | float64|
 | lstat    | float64|
 | medv     | float64|
+
 MEDV is the median value of owner-occupied homes in $1,000s. It represents the typical house price in a neighborhood, ignoring extreme outliers, and is the target variable we predict using features such as the number of rooms, crime rate, and proximity to the river.
 
 # Insights
