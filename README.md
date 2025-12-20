@@ -31,11 +31,21 @@ This dataset provides a historical snapshot of the Boston housing market from th
 | medv     | float64|
 MEDV is the median value of owner-occupied homes in $1,000s. It represents the typical house price in a neighborhood, ignoring extreme outliers, and is the target variable we predict using features such as the number of rooms, crime rate, and proximity to the river.
 
-# Executive Summary
+# Insights
+<img width="1780" height="480" alt="MEDV Scatterplots" src="https://github.com/user-attachments/assets/5d15f32a-4e85-41cb-963a-9505b2448c67" />
 
-(right into the juicy price)
+- **House Size (RM):** Houses with more rooms drive higher prices. Most Boston homes have 6–7 rooms, showing that size is the most significant price factor.  
+- **Neighborhood Socioeconomic Status (LSTAT):** Higher percentages of lower-status populations correlate with lower house prices. Most neighborhoods range 5–15%, indicating many areas have a strong socioeconomic profile.  
+- **Education Quality (PTRATIO):** Higher student-to-teacher ratios slightly reduce house prices. Most areas have a ratio around 20, suggesting moderate influence on pricing.  
 
-# Insight Deep Dive
-(more deep into executive summary)
+<img width="1580" height="380" alt="MEDV Boxplot CHAS" src="https://github.com/user-attachments/assets/98073fd2-59f8-475d-b65a-1e06ccb003be" />
+
+- **River Proximity (CHAS):** Houses near the river (CHAS=1) have higher prices than those farther away, indicating strong location-based premiums.
 
 # Recommendations
+
+- **Prioritize house size and location** in pricing and valuation models for higher accuracy.  
+- **Leverage neighborhood socioeconomic data** to identify undervalued or high-risk areas.  
+- **Consider education quality** as a secondary factor when making investment decisions.  
+- **Handle skewed distributions and outliers** for predictive modeling improvements.  
+
